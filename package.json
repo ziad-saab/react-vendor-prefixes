@@ -1,7 +1,7 @@
 {
-  "name": "react-vendor-prefix",
+  "name": "react-vendor-prefixes",
   "version": "0.0.1",
-  "description": "Vendor prefixing for inline styles",
+  "description": "Vendor prefixing for inline styles, forked from cgarvis/react-vendor-prefix",
   "main": "dist/index.js",
   "scripts": {
     "prepublish": "./scripts/production",
@@ -9,18 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cgarvis/react-vendor-prefix.git"
+    "url": "https://github.com/ziad-saab/react-vendor-prefixes.git"
   },
   "keywords": [
     "react",
-    "styles"
+    "styles",
+    "vendor prefix",
+    "inline styles"
   ],
-  "author": "Christopher Garvis",
+  "author": "Ziad Saab <ziad.saab@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cgarvis/react-vendor-prefix/issues"
+    "url": "https://github.com/ziad-saab/react-vendor-prefixes/issues"
   },
-  "homepage": "https://github.com/cgarvis/react-vendor-prefix",
+  "homepage": "https://github.com/ziad-saab/react-vendor-prefixes",
   "devDependencies": {
     "6to5": "^3.3.12",
     "6to5-core": "^3.3.12",
