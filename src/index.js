@@ -33,7 +33,15 @@ let vendorSpecificProperties = [
   'borderImageSlice',
   'boxSizing',
   'boxShadow',
+  'columns',
+  'columnfill',
+  'columngap',
+  'columnRule',
+  'columnSpan',
+  'columnWidth',
   'contentColumns',
+  'perspective',
+  'perspectiveOrigin',
   'transform',
   'transformOrigin',
   'transformStyle',
@@ -42,9 +50,7 @@ let vendorSpecificProperties = [
   'transitionDuration',
   'transitionProperty',
   'transitionTimingFunction',
-  'perspective',
-  'perspectiveOrigin',
-  'userSelect',
+  'userSelect'
 ];
 
 function prefixName(name) {
