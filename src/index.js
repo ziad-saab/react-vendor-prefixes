@@ -2,7 +2,7 @@ let prefix = (function () {
   if (typeof window === "undefined") {
     return {};
   }
-  var styles = window.getComputedStyle(document.documentElement, ''),
+  var styles = window.getComputedStyle(document.documentElement, ''), // This line is not supported in IE8
     pre = (Array.prototype.slice
       .call(styles)
       .join('')
